@@ -1,0 +1,8 @@
+/*класс для формы детального описания работника*/
+.enterprise-overlay-window {
+    position: fixed;
+    width: 80%;
+    min-width: 50%;
+    z-index: 5;
+    background-color: white;
+}
