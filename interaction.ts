@@ -1,3 +1,8 @@
+/*
+* Взаимодействие компонентов
+*
+* 
+*/
 namespace Interaction {
     export interface ISignal<S, T> {
         on(handler: (source: S, data: T) => void): void;
